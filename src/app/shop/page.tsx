@@ -106,7 +106,7 @@ function ShopContent() {
       </div>
 
       {/* Layout: sidebar + grid */}
-      <div className="flex gap-8">
+      <div className="lg:flex lg:gap-8">
         <FilterSidebar
           brands={brands}
           sizes={sizes}
@@ -123,7 +123,7 @@ function ShopContent() {
           onClearAll={clearAllFilters}
           totalResults={filteredProducts.length}
         />
-        <div className="flex-1 min-w-0">
+        <div className="w-full lg:flex-1 lg:min-w-0">
           <ProductGrid
             products={filteredProducts}
             emptyMessage="No items match your filters"
