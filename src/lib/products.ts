@@ -14,10 +14,10 @@ export const products: Product[] = [
     description:
       "Stunning sequin shift dress with bold pink floral design on a black background. Bright green leaf and stem accents throughout. Fully sequined for maximum sparkle. Sleeveless with crew neckline. New with tags — never worn! A true showstopper for any special occasion.",
     images: [
-      "/products/product-11.jpg",
       "/products/product-06.jpg",
       "/products/product-14.jpg",
       "/products/product-09.jpg",
+      "/products/product-11.jpg",
       "/products/product-12.jpg",
     ],
     status: "available",
@@ -37,9 +37,9 @@ export const products: Product[] = [
     description:
       "Playful tropical print dress featuring whimsical sea-life motifs — shells, fish, and starfish — in pink, blue, and yellow on a crisp white background. Classic Lilly Pulitzer fun-in-the-sun style. New with tags!",
     images: [
-      "/products/product-02.jpg",
       "/products/product-07.jpg",
       "/products/product-08.jpg",
+      "/products/product-02.jpg",
     ],
     status: "available",
     featured: true,
@@ -58,9 +58,9 @@ export const products: Product[] = [
     description:
       "Elegant solid red shift dress in beautiful textured bouclé fabric. Features a sweet bow detail at the chest. Sleeveless and sophisticated — perfect for brunch, work, or a night out. New with tags!",
     images: [
+      "/products/product-05.jpg",
       "/products/product-04.jpg",
       "/products/product-03.jpg",
-      "/products/product-05.jpg",
       "/products/product-10.jpg",
       "/products/product-13.jpg",
     ],
@@ -80,7 +80,7 @@ export const products: Product[] = [
     price: 9500,
     description:
       "Sophisticated white dress with a gorgeous embossed leaf pattern texture. Clean, elegant, and incredibly versatile — dress it up or down. New with tags!",
-    images: ["/products/product-16.jpg", "/products/product-15.jpg"],
+    images: ["/products/product-15.jpg", "/products/product-16.jpg"],
     status: "available",
     featured: true,
     createdAt: "2026-04-14T00:00:00Z",

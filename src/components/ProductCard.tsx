@@ -58,11 +58,11 @@ export default function ProductCard({ product }: ProductCardProps) {
         <h3 className="text-sm font-medium text-gray-900 line-clamp-2 mb-1 group-hover:text-pink-600 transition-colors">
           {product.name}
         </h3>
-        <div className="flex items-center justify-between mt-2">
-          <span className="text-base font-bold text-gray-900">
+        <div className="flex items-center justify-between mt-2 gap-2">
+          <span className="text-sm sm:text-base font-bold text-gray-900">
             {formatPrice(product.price)}
           </span>
-          <span className="text-xs text-gray-500">Size {product.size}</span>
+          <span className="text-[11px] text-gray-500 flex-shrink-0">Size {product.size}</span>
         </div>
       </div>
     </Link>
